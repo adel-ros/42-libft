@@ -6,7 +6,7 @@
 /*   By: adel-ros <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/10 15:43:44 by adel-ros          #+#    #+#             */
-/*   Updated: 2016/12/20 21:35:39 by adel-ros         ###   ########.fr       */
+/*   Updated: 2017/01/19 14:16:32 by adel-ros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ int		ft_countwords(char *str, char c)
 	int		count;
 
 	count = 0;
+	if (!str)
+		return (0);
 	while (*str)
 	{
 		while (*str && *str == c)

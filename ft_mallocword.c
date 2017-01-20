@@ -18,7 +18,7 @@ char	*ft_mallocword(char *str, char c)
 	char	*word;
 
 	i = 0;
-	while (*str && str[i] != c)
+	while (str[i] && str[i] != c)
 		i++;
 	word = (char *)malloc(sizeof(char) * (i + 1));
 	i = 0;

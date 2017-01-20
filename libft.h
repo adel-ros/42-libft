@@ -6,7 +6,7 @@
 /*   By: adel-ros <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/28 13:44:38 by adel-ros          #+#    #+#             */
-/*   Updated: 2017/01/13 20:08:46 by adel-ros         ###   ########.fr       */
+/*   Updated: 2017/01/19 13:41:23 by adel-ros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 int					ft_countwords(char *str, char c);
 char				*ft_mallocword(char *str, char c);
-int					count_digits(int nb);
+int					ft_countdigits(int nb);
 size_t				ft_lstsize(t_list *begin_list);
 void				ft_lstend(t_list **alst, t_list *new);
 
